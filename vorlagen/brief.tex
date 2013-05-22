@@ -1,0 +1,21 @@
+\documentclass[DIN, pagenumber=false, parskip=half, fromlogo=true, fromrule=true]{scrlttr2}
+\LoadLetterOption{brief}
+
+%~ bitte Namen setzen :)
+\setkomavar{signature}{\$Absendername\\ Fraktions-IT}
+
+%~ optionale Dinge; nicht benötigtes bitte löschen
+\setkomavar{yourmail}{\$IhrSchreibenVom}
+\setkomavar{yourref}{\$IhrZeichen}
+\setkomavar{myref}{\$UnserZeichen}
+\setkomavar{subject}{\$Betreff}
+
+\begin{document}
+ 
+\begin{letter}{\$Name \\ \$Strasse \\ \$PLZ \$Ort}
+\opening{Sehr geehrte(r) \$Mensch,}
+\$Text
+\closing{Mit freundlichen Grüßen}
+\end{letter}
+ 
+\end{document}

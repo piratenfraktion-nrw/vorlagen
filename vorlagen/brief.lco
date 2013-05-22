@@ -1,0 +1,29 @@
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\RequirePackage{graphicx}
+ 
+%~ Einrückung der Signatur entfernen
+\renewcommand{\raggedsignature}{\raggedright}
+
+\setkomafont{fromname}{\small}
+\setkomavar{fromname}{Piratenfraktion im Landtag NRW}
+\setkomavar{backaddress}{Piratenfraktion NRW · Platz des Landtags 1 · 40221 Düsseldorf}
+\setkomavar*{fromphone}{+49 211 884-4607/-4644}
+\setkomavar{fromfax}{+49 211 884-3705}
+\setkomavar{fromemail}{it@piratenfraktion-nrw.de}
+\setkomavar{fromlogo}{\includegraphics*[width=2cm]{logo.png}}
+
+\setkomavar{location}{\footnotesize{
+\begin{tabular}{@{}r@{}}
+	Piratenfraktion NRW\\
+	%~ schiebt leider die Locaition-Box auf den Seitenrand :(
+	%~\usekomavar{fromname}\\
+	Fraktions-IT\\
+	Platz des Landtags 1\\ 40221 Düsseldorf\\
+	\\
+	\usekomavar*{fromphone} \usekomavar{fromphone}\\
+	\usekomavar*{fromfax} \usekomavar{fromfax}\\
+	\usekomavar{fromemail}
+\end{tabular}}}
+
+\setkomavar{firstfoot}{\hrule\mbox{}}
