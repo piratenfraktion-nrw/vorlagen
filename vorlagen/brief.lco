@@ -16,7 +16,7 @@
 \setkomavar{location}{\footnotesize{
 \begin{tabular}{@{}r@{}}
 	Piratenfraktion NRW\\
-	%~ schiebt leider die Locaition-Box auf den Seitenrand :(
+	%~ schiebt leider die Location-Box auf den Seitenrand :(
 	%~\usekomavar{fromname}\\
 	Fraktions-IT\\
 	Platz des Landtags 1\\ 40221 Düsseldorf\\
