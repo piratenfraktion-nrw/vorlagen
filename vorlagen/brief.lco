@@ -1,5 +1,5 @@
-\usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
+\usepackage{xltxtra}
 \RequirePackage{graphicx}
  
 %~ Einrückung der Signatur entfernen
