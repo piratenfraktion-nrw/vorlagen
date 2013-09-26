@@ -1,7 +1,3 @@
-\usepackage[german]{babel}
-\usepackage{xltxtra}
-\RequirePackage{graphicx}
- 
 %~ Einrückung der Signatur entfernen
 \renewcommand{\raggedsignature}{\raggedright}
 
