@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper,twoside]{scrreprt}
+\usepackage[german]{babel}
+\usepackage{xltxtra}
+\usepackage{hyperref}
+\usepackage[automark]{scrpage2}
+
+\pagestyle{scrheadings}
+\renewcommand{\chapterpagestyle}{scrheadings}
+\setheadsepline{1pt}
+\setfootsepline{1pt}
+\ohead{\leftmark}
+\ihead{\rightmark}
+
+\begin{document}
+
+\titlehead{Piratenfraktion im Landtag NRW\\ Fraktions-IT}
+\date{\today}
+ 
+\subject{\$Subject}
+\title{\$Titel}
+\subtitle{\$Untertitel}
+\author{\$Autor \and \$Autor}
+\publishers{{\small
+\begin{tabular}{|l|l|l|l|}
+  \hline
+  Datum & Version & Autor & Changelog \\
+  \hline \hline
+  201x-xx-xx & 0.1 & Bernd Müller & initiale Version \\
+  \hline
+\end{tabular}
+}}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{test}
+\$Text
+ 
+\end{document}
