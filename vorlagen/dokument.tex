@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,twoside]{scrreprt}
+\documentclass[12pt,a4paper]{scrreprt}
 \usepackage[german]{babel}
 \usepackage{xltxtra}
 \usepackage{hyperref}
@@ -8,8 +8,6 @@
 \renewcommand{\chapterpagestyle}{scrheadings}
 \setheadsepline{1pt}
 \setfootsepline{1pt}
-\ohead{\leftmark}
-\ihead{\rightmark}
 
 \begin{document}
 
@@ -20,7 +18,7 @@
 \title{\$Titel}
 \subtitle{\$Untertitel}
 \author{\$Autor \and \$Autor}
-\publishers{{\small
+\publishers{{\scriptsize
 \begin{tabular}{|l|l|l|l|}
   \hline
   Datum & Version & Autor & Changelog \\
